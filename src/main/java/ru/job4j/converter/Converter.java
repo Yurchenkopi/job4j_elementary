@@ -15,7 +15,7 @@ public class Converter {
         float expectedEuro = 2;
         float expectedUsd = (float) 140 / 60;
         float outEuro = Converter.rubleToEuro(in);
-        float outUsd = Converter.rubleToEuro(in);
+        float outUsd = Converter.rubleToDollar(in);
         boolean passedEuro = expectedEuro == outEuro;
         boolean passedUsd = expectedUsd == outUsd;
         System.out.println("140 rubles are 2 Euro. Test result : " + passedEuro);
