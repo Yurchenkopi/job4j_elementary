@@ -29,7 +29,7 @@ public class PointTest {
 
     @Test
     public void when04to20thenSQRT20() {
-        double expected = Math.sqrt(20);
+        double expected = 4.47;
         int x1 = 0;
         int y1 = 4;
         int x2 = 2;
