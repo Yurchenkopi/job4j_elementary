@@ -39,12 +39,12 @@ public class PointTest {
     }
 
     @Test
-    public void when33to24thenSQRT2() {
-        double expected = Math.sqrt(2);
-        int x1 = 3;
+    public void when43to86then5() {
+        double expected = 5;
+        int x1 = 4;
         int y1 = 3;
-        int x2 = 2;
-        int y2 = 4;
+        int x2 = 8;
+        int y2 = 6;
         double out = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.01);
     }
