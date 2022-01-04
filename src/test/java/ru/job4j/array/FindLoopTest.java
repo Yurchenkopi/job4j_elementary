@@ -73,4 +73,15 @@ public class FindLoopTest {
         int expected = -1;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void whenFind2() {
+        int[] data = new int[] {1, 6, 3};
+        int el = 3;
+        int start = 1;
+        int finish = 2;
+        int result = FindLoop.indexOf(data, el, start, finish);
+        int expected = 2;
+        Assert.assertEquals(expected, result);
+    }
 }
