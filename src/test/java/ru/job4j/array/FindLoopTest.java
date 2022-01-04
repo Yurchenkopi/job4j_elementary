@@ -6,7 +6,7 @@ import org.junit.Assert;
 
 public class FindLoopTest {
     @Test
-    public void whenArrayHas5ThenNO() {
+    public void whenArrayHas5ThenMinus1() {
         int[] data = {0, 4, 3, 2};
         int el = 5;
         int result = FindLoop.indexOf(data, el);
