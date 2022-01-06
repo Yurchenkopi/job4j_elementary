@@ -90,7 +90,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenDataMonoByTrueThenTrue() {
+    public void whenDataMonoByTrueThenTrue()  {
         char[][] input = {
                 {' ', ' ', 'X', ' ', ' '},
                 {' ', ' ', 'X', ' ', ' '},
@@ -103,7 +103,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenDataNotMonoByTrueThenFalse() {
+    public void whenDataNotMonoByTrueThenFalse()  {
         char[][] input = {
                 {' ', ' ', 'X', ' ', ' '},
                 {' ', ' ', 'X', ' ', ' '},
@@ -116,7 +116,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenDataHMonoByTrueThenTrue() {
+    public void whenDataHMonoByTrueThenTrue()  {
         char[][] input = {
                 {' ', ' ', ' ', ' ', ' '},
                 {' ', ' ', ' ', ' ', ' '},
