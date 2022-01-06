@@ -20,8 +20,9 @@ public class MatrixCheckTest {
     public void whenMonoHorizontalIs2ThenTrue() {
         char[][] input = {
                 {' ', ' ', ' ', ' '},
-                {' ', ' ', ' '},
+                {' ', ' ', ' ', ' '},
                 {'X', 'X', 'X', 'X'},
+                {' ', ' ', ' ', ' '},
         };
         int row = 2;
         boolean result = MatrixCheck.monoHorizontal(input, row);
